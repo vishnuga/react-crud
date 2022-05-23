@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+####
+GET http://localhost:5000/users/62847e89781813cc66ace42b
+
+########
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "firstname": "jwhegejfrh",
+    "lastname": "vimal",
+    "gender": "male"
+}
+
+#######
+PATCH http://localhost:5000/users/62847bbe781813cc66ace41d
+Content-Type: application/json
+
+{
+    "firstname": "raajan",
+    "lastname": "vimal",
+    "gender": "male"
+}
+
+#######
+
+DELETE http://localhost:5000/users/6284d0416d93b2b4a72d77e8
+
